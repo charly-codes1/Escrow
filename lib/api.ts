@@ -9,7 +9,7 @@ import {
   TransactionItem,
   UserProfileProp,
 } from './types';
-const API_KEY = 'AIzaSyBi33yF4IGhgHzzljkiIyALkmQ2QbqyxR0';
+const API_KEY = process.env.EXPO_PUBLIC_FIREBASE_API_KEY;
 
 export const login = async ({
   email,
